@@ -1,0 +1,38 @@
+:root{
+    --primari-color:#F5CF06;
+    --segundaria-color:#8E4106;
+    
+}
+
+
+.righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  header{
+    background-color: var(--primari-color);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+head span{
+    
+}
+
+body{
+    background-color: var(--primari-color);
+}
+
+ main{
+     background-color:#F5CF06;
+     flex-grow: 1;
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ footer{
+     background-color: #F5CF06;
+ }
